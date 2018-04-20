@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PersonaComponent } from './persona/persona.component';
 import { IMCComponent } from './IMC/imc.component';
+import { ImcPipe } from './IMC/imc.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonaComponent,
-    IMCComponent
+    IMCComponent,
+    ImcPipe
   ],
   imports: [
     BrowserModule,

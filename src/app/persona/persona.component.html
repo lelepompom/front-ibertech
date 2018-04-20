@@ -12,6 +12,9 @@
     <imc-persona [peso]="persona.peso" [altura]="persona.altura"></imc-persona>
 </div>
 
+<div style="text-align :center" [hidden]="!persona">
+    {{persona | json}}
+</div>
 <!-- <div style="text-align: center" [hidden]="esVisible()">
     NO EXISTE LA FUNCIÓN
 </div> -->
